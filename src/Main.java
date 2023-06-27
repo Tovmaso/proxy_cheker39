@@ -15,13 +15,13 @@ public class Main {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        /*String text = "\nHello world";
+        String text = "\nHello world";
         try {
             FileOutputStream fos = new FileOutputStream("C://java/test.txt", true);
             byte[] buffer = text.getBytes();
             fos.write(buffer);
         } catch (IOException e) {
             throw new RuntimeException(e);
-        }*/
+        }
     }
 }

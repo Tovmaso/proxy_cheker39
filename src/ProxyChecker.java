@@ -46,6 +46,5 @@ public class ProxyChecker {
         } catch (IOException e) {
             System.out.println(ip+" - НЕ РАБОТАЕТ");
         }
-
     }
 }
